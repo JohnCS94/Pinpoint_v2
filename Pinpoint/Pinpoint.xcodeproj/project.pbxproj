@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02B808D2B82D26B00AABFF6 /* PinpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B808C2B82D26B00AABFF6 /* PinpointApp.swift */; };
+		F02B808F2B82D26B00AABFF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B808E2B82D26B00AABFF6 /* ContentView.swift */; };
+		F02B80912B82D26D00AABFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B80902B82D26D00AABFF6 /* Assets.xcassets */; };
+		F02B80942B82D26D00AABFF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B80932B82D26D00AABFF6 /* Preview Assets.xcassets */; };
+		F02B809E2B82D26D00AABFF6 /* PinpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B809D2B82D26D00AABFF6 /* PinpointTests.swift */; };
+		F02B80A82B82D26D00AABFF6 /* PinpointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B80A72B82D26D00AABFF6 /* PinpointUITests.swift */; };
+		F02B80AA2B82D26D00AABFF6 /* PinpointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B80A92B82D26D00AABFF6 /* PinpointUITestsLaunchTests.swift */; };
+		F02B80B82B82E08800AABFF6 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = F02B80B72B82E08800AABFF6 /* SocketIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F02B809A2B82D26D00AABFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B80812B82D26B00AABFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B80882B82D26B00AABFF6;
+			remoteInfo = Pinpoint;
+		};
+		F02B80A42B82D26D00AABFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B80812B82D26B00AABFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B80882B82D26B00AABFF6;
+			remoteInfo = Pinpoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F02B80892B82D26B00AABFF6 /* Pinpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B808C2B82D26B00AABFF6 /* PinpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointApp.swift; sourceTree = "<group>"; };
+		F02B808E2B82D26B00AABFF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F02B80902B82D26D00AABFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02B80932B82D26D00AABFF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F02B80992B82D26D00AABFF6 /* PinpointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinpointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B809D2B82D26D00AABFF6 /* PinpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointTests.swift; sourceTree = "<group>"; };
+		F02B80A32B82D26D00AABFF6 /* PinpointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinpointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B80A72B82D26D00AABFF6 /* PinpointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointUITests.swift; sourceTree = "<group>"; };
+		F02B80A92B82D26D00AABFF6 /* PinpointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinpointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02B80862B82D26B00AABFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B80B82B82E08800AABFF6 /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B80962B82D26D00AABFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B80A02B82D26D00AABFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02B80802B82D26B00AABFF6 = {
+			isa = PBXGroup;
+			children = (
+				F02B808B2B82D26B00AABFF6 /* Pinpoint */,
+				F02B809C2B82D26D00AABFF6 /* PinpointTests */,
+				F02B80A62B82D26D00AABFF6 /* PinpointUITests */,
+				F02B808A2B82D26B00AABFF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02B808A2B82D26B00AABFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02B80892B82D26B00AABFF6 /* Pinpoint.app */,
+				F02B80992B82D26D00AABFF6 /* PinpointTests.xctest */,
+				F02B80A32B82D26D00AABFF6 /* PinpointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02B808B2B82D26B00AABFF6 /* Pinpoint */ = {
+			isa = PBXGroup;
+			children = (
+				F02B808C2B82D26B00AABFF6 /* PinpointApp.swift */,
+				F02B808E2B82D26B00AABFF6 /* ContentView.swift */,
+				F02B80902B82D26D00AABFF6 /* Assets.xcassets */,
+				F02B80922B82D26D00AABFF6 /* Preview Content */,
+			);
+			path = Pinpoint;
+			sourceTree = "<group>";
+		};
+		F02B80922B82D26D00AABFF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F02B80932B82D26D00AABFF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F02B809C2B82D26D00AABFF6 /* PinpointTests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B809D2B82D26D00AABFF6 /* PinpointTests.swift */,
+			);
+			path = PinpointTests;
+			sourceTree = "<group>";
+		};
+		F02B80A62B82D26D00AABFF6 /* PinpointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B80A72B82D26D00AABFF6 /* PinpointUITests.swift */,
+				F02B80A92B82D26D00AABFF6 /* PinpointUITestsLaunchTests.swift */,
+			);
+			path = PinpointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02B80882B82D26B00AABFF6 /* Pinpoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B80AD2B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "Pinpoint" */;
+			buildPhases = (
+				F02B80852B82D26B00AABFF6 /* Sources */,
+				F02B80862B82D26B00AABFF6 /* Frameworks */,
+				F02B80872B82D26B00AABFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinpoint;
+			packageProductDependencies = (
+				F02B80B72B82E08800AABFF6 /* SocketIO */,
+			);
+			productName = Pinpoint;
+			productReference = F02B80892B82D26B00AABFF6 /* Pinpoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02B80982B82D26D00AABFF6 /* PinpointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B80B02B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "PinpointTests" */;
+			buildPhases = (
+				F02B80952B82D26D00AABFF6 /* Sources */,
+				F02B80962B82D26D00AABFF6 /* Frameworks */,
+				F02B80972B82D26D00AABFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B809B2B82D26D00AABFF6 /* PBXTargetDependency */,
+			);
+			name = PinpointTests;
+			productName = PinpointTests;
+			productReference = F02B80992B82D26D00AABFF6 /* PinpointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F02B80A22B82D26D00AABFF6 /* PinpointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B80B32B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "PinpointUITests" */;
+			buildPhases = (
+				F02B809F2B82D26D00AABFF6 /* Sources */,
+				F02B80A02B82D26D00AABFF6 /* Frameworks */,
+				F02B80A12B82D26D00AABFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B80A52B82D26D00AABFF6 /* PBXTargetDependency */,
+			);
+			name = PinpointUITests;
+			productName = PinpointUITests;
+			productReference = F02B80A32B82D26D00AABFF6 /* PinpointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02B80812B82D26B00AABFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F02B80882B82D26B00AABFF6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F02B80982B82D26D00AABFF6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F02B80882B82D26B00AABFF6;
+					};
+					F02B80A22B82D26D00AABFF6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F02B80882B82D26B00AABFF6;
+					};
+				};
+			};
+			buildConfigurationList = F02B80842B82D26B00AABFF6 /* Build configuration list for PBXProject "Pinpoint" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F02B80802B82D26B00AABFF6;
+			packageReferences = (
+				F02B80B62B82E08800AABFF6 /* XCRemoteSwiftPackageReference "socket" */,
+			);
+			productRefGroup = F02B808A2B82D26B00AABFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02B80882B82D26B00AABFF6 /* Pinpoint */,
+				F02B80982B82D26D00AABFF6 /* PinpointTests */,
+				F02B80A22B82D26D00AABFF6 /* PinpointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02B80872B82D26B00AABFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B80942B82D26D00AABFF6 /* Preview Assets.xcassets in Resources */,
+				F02B80912B82D26D00AABFF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B80972B82D26D00AABFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B80A12B82D26D00AABFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02B80852B82D26B00AABFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B808F2B82D26B00AABFF6 /* ContentView.swift in Sources */,
+				F02B808D2B82D26B00AABFF6 /* PinpointApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B80952B82D26D00AABFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B809E2B82D26D00AABFF6 /* PinpointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B809F2B82D26D00AABFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B80AA2B82D26D00AABFF6 /* PinpointUITestsLaunchTests.swift in Sources */,
+				F02B80A82B82D26D00AABFF6 /* PinpointUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F02B809B2B82D26D00AABFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B80882B82D26B00AABFF6 /* Pinpoint */;
+			targetProxy = F02B809A2B82D26D00AABFF6 /* PBXContainerItemProxy */;
+		};
+		F02B80A52B82D26D00AABFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B80882B82D26B00AABFF6 /* Pinpoint */;
+			targetProxy = F02B80A42B82D26D00AABFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F02B80AB2B82D26D00AABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F02B80AC2B82D26D00AABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02B80AE2B82D26D00AABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinpoint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.Pinpoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02B80AF2B82D26D00AABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinpoint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.Pinpoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F02B80B12B82D26D00AABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.PinpointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinpoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pinpoint";
+			};
+			name = Debug;
+		};
+		F02B80B22B82D26D00AABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.PinpointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinpoint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pinpoint";
+			};
+			name = Release;
+		};
+		F02B80B42B82D26D00AABFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.PinpointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pinpoint;
+			};
+			name = Debug;
+		};
+		F02B80B52B82D26D00AABFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abazzi.PinpointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pinpoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02B80842B82D26B00AABFF6 /* Build configuration list for PBXProject "Pinpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B80AB2B82D26D00AABFF6 /* Debug */,
+				F02B80AC2B82D26D00AABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B80AD2B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "Pinpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B80AE2B82D26D00AABFF6 /* Debug */,
+				F02B80AF2B82D26D00AABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B80B02B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "PinpointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B80B12B82D26D00AABFF6 /* Debug */,
+				F02B80B22B82D26D00AABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B80B32B82D26D00AABFF6 /* Build configuration list for PBXNativeTarget "PinpointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B80B42B82D26D00AABFF6 /* Debug */,
+				F02B80B52B82D26D00AABFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F02B80B62B82E08800AABFF6 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F02B80B72B82E08800AABFF6 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F02B80B62B82E08800AABFF6 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F02B80812B82D26B00AABFF6 /* Project object */;
+}
